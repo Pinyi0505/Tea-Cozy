@@ -73,6 +73,7 @@ a {
   align-content: center;
   margin: auto;
   align-items: center;
+  margin-bottom: 75px;
 }
 
 .intro {
@@ -90,7 +91,6 @@ a {
 .dimensions {
   height: 200px;
   width: 300px;
-  margin-bottom: 10px;
 }
 
 .examples {
@@ -103,3 +103,46 @@ a {
   width: 700px;
   margin: auto;
 }
+
+.margin {
+  margin-top: 10px;
+}
+
+
+/* Locations */
+
+.locations {
+  background-image: url("../Photos/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 95px;
+}
+
+.site {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.places {
+  width: 300px;
+  text-align: center;
+  background-color: black;
+  opacity: 1;
+}
+
+.forty {
+  margin-right: 40px;
+}
+
+
+/* Footer */
