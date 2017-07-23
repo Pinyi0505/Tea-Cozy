@@ -13,4 +13,27 @@ body {
 header {
   display: flex;
   flex-direction: row;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  top: 0px;
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+
+/* Body */
+
+.mission {
+  background-image: url("../Photos/img-mission-background.jpg");
 }
