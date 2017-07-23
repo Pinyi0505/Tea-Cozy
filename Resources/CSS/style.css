@@ -14,21 +14,33 @@ header {
   display: flex;
   flex-direction: row;
   position: fixed;
+  align-items: center;
   background-color: black;
+  height: 69px;
   width: 100%;
   top: 0px;
-  height: 69px;
-  align-items: center;
+  left: 0px;
   border-bottom: 1px solid seashell;
 }
 
 .logo {
   height: 50px;
-  margin-left: 10px;
+  padding-left: 10px;
+}
+
+nav {
+  display: inline-flex;
+  color: seashell;
+  text-align: right;
+  margin-left: 825px;
 }
 
 a {
   color: seashell;
+  text-decoration: underline;
+  padding: 10px;
+  display: inline-block;
+  text-align: justify;
 }
 
 
