@@ -5,6 +5,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  font-size: 22px;
 }
 
 
@@ -31,7 +32,7 @@ header {
 nav {
   display: inline-flex;
   text-align: right;
-  margin-left: 825px;
+  margin-left: 750px;
 }
 
 a {
@@ -56,9 +57,49 @@ a {
 .words {
   display: inline;
   background-color: black;
-  height: 100px;
   width: inherit;
   text-align: center;
   align-content: center;
+  margin: auto;
+}
+
+
+/* Body - Featured Teas */
+
+.featured {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+.tea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+  align-items: center;
+}
+
+.dimensions {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.examples {
+  text-align: center;
+}
+
+.two {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 700px;
   margin: auto;
 }
